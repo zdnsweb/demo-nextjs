@@ -49,7 +49,7 @@ export default function Repos({ repos }) {
                   <ListItemText
                     primary={
                       <Link href={`/repos/${repo.name}`}>
-                        <>{repo.description}({repo.name})</>
+                        <Button>{repo.description}({repo.name})</Button>
                       </Link>
                     }
                   />
